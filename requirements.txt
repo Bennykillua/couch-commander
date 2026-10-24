@@ -1,0 +1,6 @@
+openwakeword
+sounddevice
+mlx-whisper
+rumps
+pyobjc-framework-Cocoa
+webrtcvad-wheels

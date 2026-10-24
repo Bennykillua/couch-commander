@@ -1,0 +1,37 @@
+Phrase                             Expected               gemma4:e2b answer / ms         gemma3:4b answer / ms         
+-----------------------------------------------------------------------------------------------------------------------
+Pause the video                    play_pause             play_pause (99.0)              play_pause (202.2)            
+hold on                            play_pause             play_pause (191.8)             play_pause (331.2)            
+wait                               play_pause             play_pause (192.6)             play_pause (335.3)            
+abeg pause am                      play_pause             play_pause (192.7)             play_pause (327.6)            
+abeg go back small                 rewind (15s)           rewind (15s) (193.3)           rewind (15s) (326.9)          
+I no hear wetin she talk           rewind (10s)           rewind (10s) (193.6)           rewind (10s) (337.8)          
+rewind 30 seconds                  rewind (30s)           rewind (30s) (192.2)           rewind (30s) (335.9)          
+make we go back two minutes        rewind (120s)          rewind (120s) (193.4)          forward (120s) (335.8)        
+jump one minute                    forward (60s)          forward (60s) (268.3)          forward (60s) (326.0)         
+skip ahead 20 seconds              forward (20s)          forward (20s) (213.6)          forward (20s) (323.5)         
+move forward 15 seconds            forward (15s)          forward (15s) (199.0)          forward (15s) (324.3)         
+make am louder                     volume_up              volume_up (196.8)              volume_up (337.0)             
+turn the volume down               volume_down            volume_down (198.7)            volume_down (325.2)           
+reduce the sound small             volume_down            volume_down (258.4)            volume_down (337.1)           
+skip this one                      next_video             next_video (211.6)             next_video (346.5)            
+go to the next video               next_video             next_video (204.6)             next_video (337.4)            
+make this full screen              fullscreen_toggle      fullscreen_toggle (200.5)      fullscreen_toggle (338.8)     
+what's for dinner                  none                   none (196.4)                   none (317.5)                  
+tell me a joke                     none                   none (192.9)                   play_pause (359.4)            
+do that thing                      none                   none (192.0)                   play_pause (353.9)            
+abeg stop am                       play_pause             play_pause (195.3)             play_pause (336.7)            
+carry am go front small            forward (10s)          none (193.9)                   forward (15s) (314.4)         
+I wan hear am well well            volume_up              volume_up (195.6)              volume_up (354.9)             
+na wetin she talk?                 rewind (10s)           none (193.0)                   rewind (10s) (349.4)          
+pause this gist for me             play_pause             play_pause (192.7)             play_pause (348.4)            
+make the sound soft                volume_down            volume_down (192.0)            volume_down (425.7)           
+take am back by twenty seconds     rewind (20s)           rewind (20s) (195.9)           rewind (20s) (342.6)          
+move the film go front 45 seconds  forward (45s)          forward (45s) (193.3)          forward (45s) (328.4)         
+abeg play the next one             next_video             next_video (192.6)             next_video (331.3)            
+show me full screen                fullscreen_toggle      fullscreen_toggle (191.7)      fullscreen_toggle (361.9)     
+
+Summary
+Model              Seen accuracy   Unseen accuracy      Overall     Average ms
+gemma4:e2b        8/8 (100.0%) 20/22 (90.9%) 28/30 (93.3%)         197.2
+gemma3:4b         8/8 (100.0%) 18/22 (81.8%) 26/30 (86.7%)         335.1

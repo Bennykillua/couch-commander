@@ -11,7 +11,7 @@ Say **"Hey Jarvis"**, wait for the chime, then say what you want, in English or 
 
 A little pixel sloth pops up in the corner to show it heard you.
 
-You can read the [article here: Control YouTube from the couch with your voice. No remote, no getting up](https://dev.to/bennykillua/im-not-getting-up-a-voice-remote-for-youtube-that-runs-fully-offline-and-understands-pidgin-1028)
+
 
 ## Why it runs fully on my Mac
 
@@ -68,5 +68,7 @@ Click the sloth in the menu bar → **Start listening**. The first run downloads
 - Works with YouTube in Chrome on macOS only.
 - Pidgin is harder for the small Whisper model than plain English.
 - The movie's own dialogue can occasionally sound like a command. The wake word and the "do nothing when unsure" rule keep this rare.
+
+You can read the [article here: Control YouTube from the couch with your voice. No remote, no getting up](https://dev.to/bennykillua/im-not-getting-up-a-voice-remote-for-youtube-that-runs-fully-offline-and-understands-pidgin-1028)
 
 MIT licensed.

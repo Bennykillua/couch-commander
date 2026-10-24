@@ -34,6 +34,20 @@ class CouchCommanderApp(rumps.App):
         self._listener_thread = None
         self._stop_event = None
         self._listener_lock = threading.Lock()
+        # Start listening automatically, so the menu bar icon is optional
+        # (it can hide behind the MacBook notch).
+        self._startup_timer = rumps.Timer(self._on_startup, 1)
+        self._startup_timer.start()
+
+    def _on_startup(self, timer):
+        timer.stop()
+        self._ensure_toast().show_state(
+            "none",
+            title="Couch Commander",
+            subtitle="say \u201cHey Jarvis\u201d when ready",
+            duration=3.0,
+        )
+        self.start_listening(None)
 
     def _ensure_toast(self):
         """Create the overlay lazily on the main thread.

@@ -1,6 +1,6 @@
 # Couch Commander 🦥
 
-Control YouTube from the couch with your voice. No remote, no getting up, no internet.
+Control YouTube from the couch with your voice. No remote, no getting up.
 
 Say **"Hey Jarvis"**, wait for the chime, then say what you want, in English or Pidgin:
 
@@ -10,6 +10,8 @@ Say **"Hey Jarvis"**, wait for the chime, then say what you want, in English or 
 - "skip this one" → next video
 
 A little pixel sloth pops up in the corner to show it heard you.
+
+You can read the [article here: Control YouTube from the couch with your voice. No remote, no getting up](https://dev.to/bennykillua/im-not-getting-up-a-voice-remote-for-youtube-that-runs-fully-offline-and-understands-pidgin-1028)
 
 ## Why it runs fully on my Mac
 
